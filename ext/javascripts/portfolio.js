@@ -213,9 +213,7 @@ $(function() {
 
   // Preload the site!
   window.addEventListener('DOMContentLoaded', function() {
-    if(isLoaded == 0) {
-      $("body").queryLoader2();
-    }
+    $("body").queryLoader2();
   });
 
 

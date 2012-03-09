@@ -1,0 +1,185 @@
+/* line 10, ../sass/main.sass */
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif, helvetica;
+  overflow: hidden;
+}
+
+/* line 19, ../sass/main.sass */
+a {
+  text-decoration: none;
+  color: #3f6076;
+}
+
+@font-face {
+  font-family: "rbno2";
+  src: url("../fonts/RBNo2Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "klavika";
+  src: url("../fonts/klavika-light.otf") format("opentype");
+}
+
+/* line 31, ../sass/main.sass */
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+  color: #3f6076;
+}
+
+/* line 35, ../sass/main.sass */
+h1 {
+  font-size: 20px;
+  letter-spacing: 0.3em;
+}
+
+/* line 39, ../sass/main.sass */
+h2 {
+  font-size: 11px;
+  letter-spacing: 0.15em;
+}
+
+/* line 43, ../sass/main.sass */
+.rbno2 {
+  font-family: "rbno2", sans-serif;
+}
+
+/* line 46, ../sass/main.sass */
+.klavika {
+  font-family: "klavika", sans-serif;
+}
+
+/* line 52, ../sass/main.sass */
+#wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 58, ../sass/main.sass */
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 63, ../sass/main.sass */
+section#home {
+  background: url("../images/bg_home.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* line 67, ../sass/main.sass */
+section#contact {
+  background: url("../images/bg_contact.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* line 71, ../sass/main.sass */
+section#portfolio {
+  background: url("../images/bg_tiger.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* line 78, ../sass/main.sass */
+a.button {
+  position: absolute;
+  display: block;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  background: white;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-radius: 300px;
+}
+/* line 90, ../sass/main.sass */
+a.button span.text {
+  position: absolute;
+}
+/* line 93, ../sass/main.sass */
+a.button span.inner {
+  position: absolute;
+  display: none;
+  width: 0px;
+  height: 0px;
+  margin-left: 45px;
+  margin-top: 45px;
+  border-radius: 300px;
+  background: #3f6076;
+}
+
+/* line 104, ../sass/main.sass */
+a.button,
+a.circle_large {
+  letter-spacing: 0.2em;
+}
+
+/* line 108, ../sass/main.sass */
+a.nav_up,
+a.nav_down {
+  left: 50%;
+  margin-left: -37.5px;
+}
+
+/* line 113, ../sass/main.sass */
+a.nav_down {
+  bottom: 50px;
+}
+
+/* line 116, ../sass/main.sass */
+a.nav_up {
+  top: 50px;
+}
+
+/* line 123, ../sass/main.sass */
+.iris_wipe {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  background: url("../images/bg_home.jpg") no-repeat center center fixed;
+  background-size: cover;
+  border-radius: 2560px;
+}
+
+/* line 143, ../sass/main.sass */
+section#home .my_name {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  top: 50%;
+  margin: -150px 0px 0px -150px;
+  background: white;
+  border-radius: 300px;
+}
+/* line 153, ../sass/main.sass */
+section#home div.hr {
+  position: relative;
+  top: 50%;
+  width: 75%;
+  height: 1px;
+  margin: 0 auto;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 161, ../sass/main.sass */
+section#home h1, section#home h2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+/* line 166, ../sass/main.sass */
+section#home h1 {
+  top: 35%;
+}
+/* line 169, ../sass/main.sass */
+section#home h2 {
+  top: 60%;
+  line-height: 2em;
+}

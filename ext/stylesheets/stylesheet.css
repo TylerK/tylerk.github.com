@@ -1,0 +1,19 @@
+/* line 1, ../../sass/stylesheet.sass */
+body {
+  background: #bb523e;
+}
+
+/* line 4, ../../sass/stylesheet.sass */
+nav ul {
+  display: block;
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  top: 0;
+  background: white;
+}
+
+/* line 12, ../../sass/stylesheet.sass */
+nav li {
+  display: inline-block;
+}
